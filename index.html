@@ -143,7 +143,6 @@
     `;
 */
 
-
     //editor.addNode(name, "typenode": false,  inputs, outputs, posx, posy, class, data, html);
     /*editor.addNode('welcome', 0, 0, 50, 50, 'welcome', {}, welcome );
     editor.addModule('Other');
@@ -160,16 +159,6 @@
 
     editor.on('nodeSelected', function(id) {
       console.log("Node selected " + id);
-
-      console.log(editor.getNodeFromId(id));
-
-      let isCtrlPressed = false;
-
-      document.addEventListener('keydown', (event) => {
-        if (event.key === 'Control') {
-          isCtrlPressed = true;
-        }
-      });
     })
 
     editor.on('moduleCreated', function(name) {
